@@ -1,6 +1,6 @@
 <?php
 
 return [
-        'address' => "oarephptraining@gmail.com",
-        'password' => "QWEasd12"
+        'address' => "secret@gmail.com",
+        'password' => "secret"
 ];
