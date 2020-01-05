@@ -1,0 +1,50 @@
+{
+  "name": "bitstone/internship",
+  "description": "Application built while working with php at 2019 internship",
+  "keywords": ["bitstone", "internship"],
+  "authors": [
+    {
+      "name": "Iulia Silasi"
+    },
+    {
+      "name": "Catalin Sbera"
+    },
+    {
+      "name": "Bogdan Oros"
+    },
+    {
+      "name": "Ruben Halmagyi"
+    },
+    {
+      "name": "Alex Arba"
+    },
+    {
+      "name": "Mihnea Mihailescu"
+    }
+  ],
+  "license" : "MIT",
+  "require": {
+    "php": ">=7.0",
+    "jenssegers/blade": "^1.2",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mysqli": "*",
+    "ext-pdo": "*",
+    "swiftmailer/swiftmailer": "*",
+    "ext-mbstring": "*",
+    "ozdemir/datatables": "2.*",
+    "phpoffice/phpspreadsheet": "^1.9",
+    "dompdf/dompdf": "^0.8.3",
+    "stripe/stripe-php": "^6.43"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
